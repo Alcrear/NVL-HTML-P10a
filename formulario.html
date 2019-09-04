@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <meta charset="utf-8">
+   <title>Formulario</title>
+   
+   </head>
+
+<body>
+
+<form method="post" action="miservidor.php">
+     <div>
+       <label for=”CP”>CP:</label>
+       <input id=”CP” type=”number”>
+     </div>
+        <div>
+       <label for=”satifaccion”>Nivel de satisfacción:</label>       
+       <select id=”satisfaccion”>
+         <option value=”1”>1</option>
+         <option value=”2”>2</option>
+         <option value=”3”>3</option>
+         <option value=”4”>4</option>
+         <option value=”5”>5</option>
+       </select>
+   </div>
+     <div>
+       <label for=”email”>E-mail del consumidor:</label>
+       <input id=”email” type=”text”>
+     </div>
+<div>
+     <label for=”positivo”>Comentario positivo:</label>
+     <textarea id=”positivo”></textarea>
+   </div>
+   <div>
+     <label for=”negativo”>Comentario negativo:</label>
+     <textarea id=”negativo”></textarea>
+   </div>
+    <div>
+       <label for=”experiencia”>Valora cómo a sido tu experiencia de compra en nuestra tienda online:</label>
+       <select id=”Experiencia”>
+         <option value=”EX”>Excelente</option>
+         <option value=”BU”>Buena</option>
+         <option value=”RE”>Regular</option>
+         <option value=”PE”>Pésima</option>
+       </select>
+   </div>
+           <div>
+       <label for=”Experiencia_N”>Valora cómo a sido tu experiencia de compra en nuestra tienda online siendo el 1 excelente, 2 buena, 3 regular, 4 pésima  </label>       
+       <select id=”Experiencia_N”>
+         <option value=”1”>1</option>
+         <option value=”2”>2</option>
+         <option value=”3”>3</option>
+         <option value=”4”>4</option>
+        
+       </select>
+   </div>
+   <input type=”submit” value=”Enviar”>
+</form>
+</body>
+</html>
